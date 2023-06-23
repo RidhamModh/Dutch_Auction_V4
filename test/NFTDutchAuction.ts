@@ -3,8 +3,8 @@ import "@nomiclabs/hardhat-ethers";
 const { ethers,upgrades,network } = require("hardhat");
 import {expect} from 'chai'
 
-const _reservePrice = "200";
-const _numBlocksAuctionOpen = 70;
+const _reservePrice = "100";
+const _numBlocksAuctionOpen = 50;
 const _offerPriceDecrement = "1";
 
 describe("Auction", function () {
